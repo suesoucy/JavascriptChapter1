@@ -9,8 +9,8 @@ homeStreet ﹤br﹥
 homeCity, homeState, homeCode
 Where homeStreet, homeCity, homeState, and homeCode are the variables you defined in Step 2. (Hint: You will have to use the add operator (+) to continue the variables with the literal text strings in these two lines of code.)
 6. Directly below the closing﹤/div﹥tag for the Work address, insert another script element. Within the script, insert commands the write the following two lines:
-workStreet ﹤br﹥
-workCity, workState, workCode
+        workStreet ﹤br﹥
+        workCity, workState, workCode
 Where workStreet, workCity, workState, and workCode are once again the variables you defined in Step 2.
 
 7. Go to the input element with the id “homeoption”. Within the ﹤input﹥tag insert an onclick event handler that contains the following four JavaScript commands: (a) Set the value of the element with id “street” to the homeStreet variable; (b) Set the value of the element with the id “city” to the homeCity variable; (c ) Set the value of the element with the id “state” to the homeState variable: (d ) Set the value of element with the id “code” to the value of the homeCode variable.
